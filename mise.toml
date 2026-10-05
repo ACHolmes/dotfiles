@@ -10,5 +10,6 @@ description = "Setup environment (not idempotent rn)"
 run = [
     "mkdir -p ~/.config/mise",
     "touch ~/.config/mise/config.toml",
-    "cat base-config.toml > ~/.config/mise/config.toml"
+    "cat base-config.toml > ~/.config/mise/config.toml",
+    "mise install"
 ]

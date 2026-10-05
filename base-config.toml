@@ -1,6 +1,7 @@
 include = [
-    "git::https://github.com/ACHolmes/dotfiles/mise-bundles/frontend.toml@latest",
-    "git::https://github.com/ACHolmes/dotfiles/mise-bundles/cloud.toml@latest", 
+    "git::https://github.com/ACHolmes/dotfiles.git//mise-bundles/cloud.toml?ref=main",
+    "git::https://github.com/ACHolmes/dotfiles.git//mise-bundles/frontend.toml?ref=main",
+    "git::https://github.com/ACHolmes/dotfiles.git//mise-bundles/python.toml?ref=main",
 ]
 
 [settings]
