@@ -1,0 +1,9 @@
+include = [
+    "git::https://github.com/ACHolmes/dotfiles/mise-bundles/frontend.toml@latest",
+    "git::https://github.com/ACHolmes/dotfiles/mise-bundles/cloud.toml@latest", 
+]
+
+[settings]
+minimum_release_age = "7d"
+
+
